@@ -1,0 +1,80 @@
+emitter:
+    size: [0.000000, 0.000000, 0.000000]
+    name: "fire3"
+    type: "point"
+    emissionVectorInverted: true
+    shortEffect: false
+    emissionVector: [1.000000, 0.000000, -0.800000]
+    emissionRange: 0.000000
+layer0:
+    name: "fire Clone Clone Clone"
+    enableFog: false
+    sprite: "../../../../../Data/Gfx/Particles/alpha/electricity4"
+    type: "layer"
+    isLong: true
+    layerType: "particles"
+    blending: 3
+    degradeStrategy: 0
+    pivotPoint: [0.000000, 0.000000]
+    loopVariation: 0.000000
+    angle: 90.000000
+    enableFrameBlend: true
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 10.000000
+    life: 0.600000
+    number: 50.000000
+    size: [0.400000, 0.400000]
+    sizeOverLifeXY: [0.000000, [1.000000, 1.000000], 1.000000, [0.500000, 0.500000]]
+    velocity: 0.100000
+    randomSpinDirection: false
+    alphaOverLife: [0.000000, 0.500000, 0.522000, 0.500613, 1.000000, 0.000000]
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 30.000000
+    randomFrameOnStart: false
+    loopSpriteAnimation: true
+    deltaTime: 0.000000
+    startTime: 0.700000
+    endTime: 0.800000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 100.000000
+    inheritPosition: true
+    particleOrientation: 1
+    activeLODS: [1, 1, 1, 1]
+    effectFormat: 1
+layer1:
+    name: "fire2 Clone"
+    enableFog: false
+    sprite: "../../../../../Data/Gfx/Particles/additive/fire"
+    type: "layer"
+    isLong: true
+    layerType: "particles"
+    blending: 3
+    degradeStrategy: 0
+    pivotPoint: [0.000000, -1.300000]
+    loopVariation: 0.000000
+    enableFrameBlend: true
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 10.000000
+    life: 0.600000
+    number: 50.000000
+    size: [0.600000, 0.600000]
+    sizeOverLifeXY: [0.000000, [1.200000, 1.200000], 0.990000, [0.200000, 0.200000]]
+    velocity: 0.100000
+    randomSpinDirection: false
+    alphaOverLife: [0.000000, 1.000000, 1.000000, 0.000000]
+    colorOverLife: [3.984436, 133.677032, 255.000000, 255.000000]
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 30.000000
+    randomFrameOnStart: false
+    loopSpriteAnimation: true
+    deltaTime: 0.000000
+    startTime: 0.100000
+    endTime: 0.200000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 100.000000
+    inheritPosition: true
+    particleOrientation: 1
+    activeLODS: [1, 1, 1, 1]
+    effectFormat: 1
